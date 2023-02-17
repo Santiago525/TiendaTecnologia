@@ -139,12 +139,13 @@ header{
     font-size: 60px;
     font-weight: 600;
     text-transform: uppercase;
-    color:#fff;
+    color:#8b8787;
+
 }
 p {
     margin-bottom: 40px;
     font-size:18px ;
-    color:#fff;
+    color:#8b8787;
 
 
 }
@@ -218,7 +219,7 @@ display: flex;
     line-height: 3rem; 
     text-align: center;
     border-radius: 50%;
-    color: #fff;
+    color: #101010;
     background: hwb(200 15% 31%);
     font-size: 2rem;
     margin: 1rem 0;
@@ -246,7 +247,7 @@ display: flex;
 }
 
 .about {
-    background: #171717;
+    background:#171717;
 }
 .price {
     background: url(img/costos.jpg) no-repeat center;
