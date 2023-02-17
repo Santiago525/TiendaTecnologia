@@ -25,10 +25,19 @@
     list-style: none;
     display: inline-block;
     margin: 0 20px;
+    position:relative;
 }
 
 .navbar ul li a{
     text-decoration: none;
     color: black;
-    font-family: Roboto,"sans-serif";
+    font-family:serif;
+    font-size:1.2rem; ;
+}
+
+.navbar ul li::before{
+    content:"";
+    height:3px;
+    width:100%;
+    background: yellowgreen;
 }
